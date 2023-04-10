@@ -8,11 +8,13 @@
     "url": ""
   },
   "scripts": {
+    "start": "NODE_ENV=production node utils/webserver.js",
+    "start-dev": "NODE_ENV=development node utils/webserver.js",
     "build": "node utils/build.js",
-    "start": "node utils/webserver.js",
     "prettier": "prettier --write '**/*.{js,jsx,ts,tsx,json,css,scss,md}'"
   },
   "dependencies": {
+    "dotenv": "^16.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

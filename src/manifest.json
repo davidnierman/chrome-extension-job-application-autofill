@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Chrome Extension with React & Webpack",
-  "description": "A chrome extension built with React 17, Webpack 5, and Webpack Dev Server 4",
+  "name": "autofill job application personal questions",
+  "description": "A chrome extension designed to autofill personal information on job",
   "options_page": "options.html",
   "background": { "service_worker": "background.bundle.js" },
   "action": {
